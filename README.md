@@ -2,11 +2,6 @@
 Favicodes: Generate favicons from unicode
 =========================================
 
-
-Introduction
-------------
-
-
 Say you're building a new website and you'd like a nice favicon, but you don't
 want the hassle of making one. Favicodes is a service to dynamically generate favicons from unicode characters. 
 (A singular favicode is a favicon generated from Unicode.) Favicodes can be further 
@@ -15,7 +10,6 @@ anyone to generate a favicode without leaving the text editor.
 
 Features
 --------
-
 
 - Favicodes may contain up to 2 glyphs, side by side
 - Generates png or ico output (png default)
