@@ -1,5 +1,5 @@
 
-Favicodes: Generate favicons from unicode
+Favicodes: Generate favicons from Unicode
 =========================================
 
 [![Documentation Status](https://readthedocs.org/projects/favicodes/badge/?version=latest)](https://favicodes.readthedocs.io/en/latest/?badge=latest)
