@@ -2,6 +2,9 @@
 Favicodes: Generate favicons from unicode
 =========================================
 
+[![Documentation Status](https://readthedocs.org/projects/favicodes/badge/?version=latest)](https://favicodes.readthedocs.io/en/latest/?badge=latest)
+
+
 Say you're building a new website and you'd like a nice favicon, but you don't
 want the hassle of making one. Favicodes is a service to dynamically generate favicons from unicode characters. 
 (A singular favicode is a favicon generated from Unicode.) Favicodes can be further 
