@@ -26,4 +26,4 @@ Features
 Documentation
 -------------
 
-Documentation can be found at https://www.favicodes.com.
+Documentation can be found at https://favicodes.readthedocs.io/en/latest/.
