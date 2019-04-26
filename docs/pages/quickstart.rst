@@ -25,3 +25,10 @@ Letters
 
 Maybe you just want a simple letter or two. (No more than 2 glyphs are allowed 
 because the letters look too cramped when there are 3 or more). 
+
+
+.. code-block::
+
+    http://favi.codes/JS
+
+This will return a favicon with "JS" in black letters on a transparent background. 
