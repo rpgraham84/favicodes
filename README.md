@@ -1,10 +1,11 @@
-=========================================
+
 Favicodes: Generate favicons from unicode
 =========================================
 
 
 Introduction
-===============
+------------
+
 
 Say you're building a new website and you'd like a nice favicon, but you don't
 want the hassle of making one. Favicodes is a service to dynamically generate favicons from unicode characters. 
@@ -13,7 +14,8 @@ customized through GET query parameters. This makes it quick and easy for
 anyone to generate a favicode without leaving the text editor.
 
 Features
-========
+--------
+
 
 - Favicodes may contain up to 2 glyphs, side by side
 - Generates png or ico output (png default)
@@ -25,6 +27,6 @@ Features
 - All font styles available for both FontAwesome Free and Google Noto Sans
 
 Documentation
-=============
+-------------
 
 Documentation can be found at https://www.favicodes.com.
