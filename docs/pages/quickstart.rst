@@ -103,7 +103,7 @@ know is the Unicode values for slash and dot, 002F and 002E:
 
 .. code-block::
 
-    https://favi.codes/02f/02e?color=white&style=extrabolditalic&x=10&y=-25&bgcolor=104f4e&fontsize=224
+    https://favi.codes/02f/02e?color=white&style=extrabold&y=-25&bgcolor=0a3534
 
-.. image:: https://favi.codes/02f/02e?color=white&style=extrabolditalic&x=10&y=-25&bgcolor=104f4e&fontsize=224
+.. image:: https://favi.codes/02f/02e?color=white&style=extrabold&y=-25&bgcolor=0a3534
 
