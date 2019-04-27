@@ -17,11 +17,15 @@ be the default for sites without a favicon). That's easy:
 
     http://favi.codes
 
-This will return a transparent, 256x256 PNG. Neat.
+This will return a transparent, 256x256 PNG.
+
+.. image:: https://favi.codes/
+
+You cant see it, but its just above this sentence. 
 
 
-Letters
-=======
+How to make a Favicode
+======================
 
 Maybe you just want a simple letter or two. (No more than 2 glyphs are allowed 
 because the letters look too cramped when there are 3 or more). 
@@ -31,4 +35,15 @@ because the letters look too cramped when there are 3 or more).
 
     http://favi.codes/JS
 
-This will return a favicon with "JS" in black letters on a transparent background. 
+This will return a favicon with "JS" in black letters on a transparent background, like this:
+
+.. image:: https://favi.codes/JS
+
+You can also do background colors:
+
+.. code-block::
+
+    http://favi.codes/JS?bgcolor=yellow
+
+.. image:: https://favi.codes/JS?bgcolor=yellow
+

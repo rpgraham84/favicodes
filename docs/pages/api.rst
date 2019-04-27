@@ -134,6 +134,7 @@ format
 =========
 
 - Specifies the format of the output image
+- Mimetype is determined by this parameter as well
 - Must be either "png" or "ico"
 - Defaults to "png"
 
