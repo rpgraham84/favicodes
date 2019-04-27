@@ -39,7 +39,7 @@ def validate(characters, icon_name, request):
             errors["font"].append(str(e))
             return
         else:
-            defaults["font"] = font
+            defaults["font"] = font.lower()
 
         try:
             valid_styles = set(k[1] for k, v in fonts.items() if font == k[0])
