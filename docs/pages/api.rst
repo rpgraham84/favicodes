@@ -1,9 +1,25 @@
-========================
-Available GET Parameters
-========================
+==================
+API Documentation
+==================
+
+
+Unicode Input
+=============
+
+Unicode character input can be specified in a number of ways. The app router
+takes the URL path of an incoming request and makes sense of it as follows:
+
+1. If no input provided (URL path is blank), assume the user wants no text. :code:`https://favi.codes/`
+2. If the path begins with "fa/" followed by text, expect a FontAwesome proper name. :code:`https://favi.codes/fa/clock`
+3. If no slashes in path, input is either Unicode literal(s) or a single Unicode code point. :code:`https://favi.codes/RG` or :code:`https://favi.codes/f23b`
+4. If one slash in path, expect 2 Unicode code points (or literals, or a code point and a literal) :code:`https://favi.codes/02f/02e`
+
+
+GET Parameters
+==============
 
 size
-=========
+-------------
 
 - Specifies the size of the image in square pixels
 - Must be an integer <= 256
@@ -11,7 +27,7 @@ size
 
 
 color
-=========
+-------------
 
 - Specifies the color of the text
 - Must be a CSS3 color name, hexcode, or comma-separated RGBA (eg. "skyblue", "0,0,0,0", or "112233"), case-insensitive
@@ -22,14 +38,14 @@ color
 
 
 bgcolor
-=========
+-------------
 
 - Specifies the color of the background, same restrictions as 'color'
 - Default is 0,0,0,0 
 
 
 font
-=========
+-------------
 
 - Specifies the font family to use
 - Must be either "notosans" or "fontawesome" case-insensitive
@@ -37,7 +53,7 @@ font
 
 
 style
-=========
+-------------
 
 - Specifies the font style to use
 - Different for different families of fonts
@@ -123,7 +139,7 @@ style
     - brands
 
 fontsize
-=========
+-------------
 
 - Specifies the font size
 - Must be an integer <= 256
@@ -131,7 +147,7 @@ fontsize
 
 
 format
-=========
+-------------
 
 - Specifies the format of the output image
 - Mimetype is determined by this parameter as well
@@ -140,7 +156,7 @@ format
 
 
 x
-=========
+-------------
 
 - Specifies an X-axis offset from center to draw the text
 - Must be between -128 and 128, since the max size is 256
@@ -148,7 +164,7 @@ x
 
 
 y
-=========
+-------------
 
 - Specifies an Y-axis offset from center to draw the text
 - Must be between -128 and 128, since the max size is 256
