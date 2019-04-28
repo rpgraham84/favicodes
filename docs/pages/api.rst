@@ -10,9 +10,13 @@ Unicode character input can be specified in a number of ways. The app router
 takes the URL path of an incoming request and makes sense of it as follows:
 
 1. If no input provided (URL path is blank), assume the user wants no text. :code:`https://favi.codes/`
+
 2. If the path begins with "fa/" followed by text, expect a FontAwesome proper name. :code:`https://favi.codes/fa/clock`
+
 3. If no slashes in path, input is either Unicode literal(s) or a single Unicode code point. :code:`https://favi.codes/RG` or :code:`https://favi.codes/f23b`
+
 4. If one slash in path, expect 2 Unicode code points (or literals, or a code point and a literal) :code:`https://favi.codes/02f/02e`
+
 
 
 GET Parameters
@@ -56,7 +60,7 @@ style
 -------------
 
 - Specifies the font style to use
-- Different for different families of fonts
+- Different options for different families of fonts
 - Default is "regular"
 - For Noto fonts these are:
     - black
@@ -137,6 +141,7 @@ style
     - solid
     - regular
     - brands
+
 
 fontsize
 -------------
