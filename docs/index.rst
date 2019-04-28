@@ -23,9 +23,9 @@ https://favi.codes/fa/github
 .. image:: https://favi.codes/JS?&bgcolor=gold&y=35&x=65&fontsize=128&style=bold
 
 JavaScript
-https://favi.codes/JS?&bgcolor=gold&y=35&x=65&fontsize=128&style=bold
+https://favi.codes/fa/js?color=gold&bgcolor=black&fontsize=256&y=-8&size=224
 
-.. image:: https://favi.codes/Y?color=white&bgcolor=ff6600&y=-20
+.. image:: https://favi.codes/fa/js?color=gold&bgcolor=black&fontsize=256&y=-8&size=224
 
 Y-Combinator
 https://favi.codes/Y?color=white&bgcolor=ff6600&y=-20
