@@ -107,7 +107,7 @@ def validate(characters, icon_name, request):
             try:
                 assert frmat in valid_formats, "format must be one of ['png', 'ico']"
             except AssertionError as e:
-                errors["input"].append(str(e))
+                errors["format"].append(str(e))
 
     def validate_icon():
         style = request.args.get("style")
